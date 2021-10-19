@@ -20,7 +20,9 @@ public class Vetores {
 			System.out.println("O aluno " + (i + 1) + " consumiu R$" + alunos[i]);
 		}
 
-		System.out.println("O total de consumo foi:" + total);
+		System.out.println("O total de consumo foi: " + total);
+
+		leitor.close();
 
 	}
 
